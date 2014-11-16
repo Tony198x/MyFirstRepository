@@ -1,0 +1,36 @@
+﻿@model MvcApp.Dotaba.Models.RegisterModel
+@{
+    ViewBag.Title = "注册";
+}
+
+<hgroup class="title">
+   <h2>创建新帐户</h2>
+</hgroup>
+
+@using (Html.BeginForm()) {
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary()
+
+    <fieldset>
+        <legend>注册表单</legend>
+        <ol>
+            <li>
+                @Html.LabelFor(m => m.UserName, htmlAttributes: new{style="display:block"})
+                @Html.TextBoxFor(m => m.UserName)
+            </li>
+            <li>
+                @Html.LabelFor(m => m.Password, htmlAttributes: new { style = "display:block" })
+                @Html.PasswordFor(m => m.Password)
+            </li>
+            <li>
+                @Html.LabelFor(m => m.ConfirmPassword, htmlAttributes: new { style = "display:block" })
+                @Html.PasswordFor(m => m.ConfirmPassword)
+            </li>
+        </ol>
+        <input type="submit" value="注册" />
+    </fieldset>
+}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

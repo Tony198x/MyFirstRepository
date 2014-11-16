@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcApp.Dotaba", "MvcApp.Dotaba\MvcApp.Dotaba.csproj", "{4B0F946A-8A1B-4DF5-A74A-B97FA001EFA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcApp.Dotaba.Tests", "MvcApp.Dotaba.Tests\MvcApp.Dotaba.Tests.csproj", "{7246FD23-1D8B-40AD-802D-08A255262B67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary.Business", "ClassLibrary.Business\ClassLibrary.Business.csproj", "{378C4C35-7CAA-41EC-83A1-B84FD7458E4D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4B0F946A-8A1B-4DF5-A74A-B97FA001EFA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B0F946A-8A1B-4DF5-A74A-B97FA001EFA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B0F946A-8A1B-4DF5-A74A-B97FA001EFA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B0F946A-8A1B-4DF5-A74A-B97FA001EFA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7246FD23-1D8B-40AD-802D-08A255262B67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7246FD23-1D8B-40AD-802D-08A255262B67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7246FD23-1D8B-40AD-802D-08A255262B67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7246FD23-1D8B-40AD-802D-08A255262B67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{378C4C35-7CAA-41EC-83A1-B84FD7458E4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{378C4C35-7CAA-41EC-83A1-B84FD7458E4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{378C4C35-7CAA-41EC-83A1-B84FD7458E4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{378C4C35-7CAA-41EC-83A1-B84FD7458E4D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

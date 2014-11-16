@@ -1,0 +1,4 @@
+G:\项目源代码\MVC相关\MvcApp.Dotaba\ClassLibrary.Business\bin\Debug\ClassLibrary.Business.dll
+G:\项目源代码\MVC相关\MvcApp.Dotaba\ClassLibrary.Business\bin\Debug\ClassLibrary.Business.pdb
+G:\项目源代码\MVC相关\MvcApp.Dotaba\ClassLibrary.Business\obj\Debug\ClassLibrary.Business.dll
+G:\项目源代码\MVC相关\MvcApp.Dotaba\ClassLibrary.Business\obj\Debug\ClassLibrary.Business.pdb
